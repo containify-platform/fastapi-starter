@@ -1,0 +1,12 @@
+[project]
+name = "fastapi-starter"
+version = "0.1.0"
+description = "A FastAPI app with SQLAlchemy, Alembic and Postgres, ready to deploy on Containify"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "sqlalchemy",
+    "alembic",
+    "psycopg[binary]",
+]
